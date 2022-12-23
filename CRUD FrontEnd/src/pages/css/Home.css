@@ -1,0 +1,60 @@
+thead{
+  background-color: #ffb3b3;
+}
+.btn {
+    border-radius: 12px;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 6px 10px;
+    text-decoration: none;
+    margin: 2px;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+    color: rgb(76, 59, 59);
+  }
+
+  .btn-edit{
+    background-color: #D6CDA4;
+    color: white;
+  }
+  .btn-delete{
+    background-color: #1C6758;
+    color: white;
+  }
+  .btn-view{
+    background-color: #3D8361;
+    color: white;
+  }
+  .btn-edit:hover{
+    transform: scale(1.1);
+    background-color: #D6CDA4;
+  }
+  .btn-delete:hover{
+    background-color: #1C6758;
+    color: yellow;
+    transform: scale(1.1);
+  }
+  .btn-view:hover{
+    background-color: #3D8361;
+    color: rgb(81, 255, 81);
+    transform: scale(1.1);
+  }
+  .btn-contact{
+    background-color: #3D8361;
+    color: white;
+    padding: 8px 12px;
+    width: 110px;
+    text-decoration: none;
+    text-decoration:none; 
+    margin: 10px auto;
+    display: block; 
+  }
+  .btn-contact:hover{
+    background-color: #57a981;
+    color: rgb(13, 13, 13);
+    transform: scale(1.1);
+    transition: all ease-in 100ms;
+    text-decoration: none;
+  }

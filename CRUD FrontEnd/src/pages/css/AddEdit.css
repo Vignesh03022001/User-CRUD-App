@@ -1,0 +1,18 @@
+.button:hover {
+    text-decoration: none;
+    color: rgb(244, 196, 196) ;
+  }
+  .addEdit{
+    background: linear-gradient(to right,#e7b2b2,#ab4d4d);
+  }
+  .button{
+    width: 100px;
+    padding: 8px 12px;
+  }
+  .form-input{
+    background:linear-gradient(to right,white,rgb(247, 146, 146)) ;
+    outline: none;
+  }
+  input[type=text]:focus{
+   outline:1px solid #ee0505 !important;
+  }
